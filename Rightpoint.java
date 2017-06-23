@@ -33,17 +33,17 @@ public class Rightpoint {
 		// Processing
 		while (count <= 100) {
 			if (count % 15 == 0) {
-				System.out.printf("%3d%s\n", count, " rightpoint");
+				System.out.println("rightpoint");
 				count++;
 				a++;
 			}
 			else if (count % 5 == 0) {
-				System.out.printf("%3d%s\n", count, " point");
+				System.out.println("point");
 				count++;
 				b++;
 			}
 			else if (count % 3 == 0) {
-				System.out.printf("%3d%s\n", count, " right");
+				System.out.println("right");
 				count++;
 				c++;
 			}
